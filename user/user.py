@@ -238,11 +238,11 @@ async def isduilie(kv):
         readDL(True, dl)
     return lable
 
-@client.on(events.NewMessage(chats=bot_id, from_users=chat_id, pattern=r"^(/pkc|user|在吗)(\?|\？|)"))
+@client.on(events.NewMessage(chats=bot_id, from_users=chat_id, pattern=r"^(在吗|-u)$"))
 async def users(event):
     try:
         dlmsg = await funCXDL()
-        msg = await jdbot.send_message(chat_id, f'靓仔你好，pkc监控`{jk_version}`已正常启动！\n\n配置变量: `{len(jk_list)}` | 当前监控: `{envNum}`')
+        msg = await jdbot.send_message(chat_id, f'你好，JD监控已正常启动！\n\n配置变量: `{len(jk_list)}` | 当前监控: `{envNum}`')
         await asyncio.sleep(3)
         msg = await jdbot.edit_message(msg, f'\n================\n\t\t\t\t\t\t\t监控明细\n================\n{dlmsg}')
         await asyncio.sleep(30)
