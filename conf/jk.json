@@ -193,7 +193,7 @@
             "name": "鸭鸭关注有礼wx",
             "envName":"jd_task_gzyl_custom",
             "scriptPath":"/ql/data/scripts/jd_task_gzyl.js"
-        },
+        }
       
    ]
     
