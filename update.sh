@@ -14,7 +14,7 @@ gitPull(){
     echo -e "\n开始更新gd机器人\n"
     rm -rf ${QLMainPath}repo/dockerbot/*
     rm -rf ${QLMainPath}/repo/gd
-    cd ${QLMainPath}/repo/ && git clone ${daili}/https://github.com/curtinlv/gd.git
+    cd ${QLMainPath}/repo/ && git clone ${daili}/https://github.com/xiaodan01/gd.git
     if [ ! -d ${QLMainPath}/repo/dockerbot ];then
         mkdir ${QLMainPath}/repo/dockerbot
     fi
