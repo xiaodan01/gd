@@ -170,3 +170,5 @@ PS：后续只需修改 jk.json 配置文件，自己定义变量监控和应对
     * 增加去重activityId
 2022.8.9 (v1.4.0)
     * 修复报错问题(Empty or invalid UTF-8 xxxx)
+2023    9.9 (v2.0)
+    * 修复更新
