@@ -81,7 +81,7 @@ tail -100f /ql/data/log/bot/run.log
 
 ![图2：登录](https://raw.githubusercontent.com/xiaodan01/gd/main/img/p7.png)
 
-- [x] c.发送【user?】 给你的机器人，有以下回复，证明监控状态正常。
+- [x] c.发送【在吗】或者【-u】 给你的机器人，有以下回复，证明监控状态正常。
 
 ![图3：测试1](https://raw.githubusercontent.com/xiaodan01/gd/main/img/p8.png)
 
