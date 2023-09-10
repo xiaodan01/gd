@@ -81,7 +81,9 @@ tail -100f /ql/data/log/bot/run.log
 
 ![图2：登录](https://raw.githubusercontent.com/xiaodan01/gd/main/img/p7.png)
 
-- [x] c.发送【在吗】或者【-u】 给你的机器人，有以下回复，证明监控状态正常。
+- [x] c.发送【/user】 点击 **“开启user”**
+
+- [x] d.发送【在吗】或者【-u】 给你的机器人，有以下回复，证明监控状态正常。
 
 ![图3：测试1](https://raw.githubusercontent.com/xiaodan01/gd/main/img/p8.png)
 
@@ -89,7 +91,7 @@ tail -100f /ql/data/log/bot/run.log
 
 - [x] 在所监控的频道发出变量，机器人会马上通知：
 
-![图4：测试2](https://raw.githubusercontent.com/xiaodan01/gd/main/img/p4.png)
+发送【/user】 点击 **“重新登录”**
 
 
 
