@@ -5,7 +5,7 @@ from telethon import events
 # from .login import user
 from .. import user
 
-@user.on(events.NewMessage(pattern=r'^del[ 0-9]*$', outgoing=True))
+@user.on(events.NewMessage(pattern=r'^-d[ 0-9]*$', outgoing=True))
 async def del_msg(event):
     try:
         num = event.raw_text.split(' ')
